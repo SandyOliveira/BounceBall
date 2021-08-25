@@ -16,8 +16,7 @@ function setup() {
 function draw() {
   background(0,0,0);  
   
-  retMovendo.x = World.mouseX;
-  retMovendo.y = World.mouseY;
+ 
   
   if (retMovendo.x - retFixo.x < retFixo.width/2 + retMovendo.width/2
       && retFixo.x - retMovendo.x < retFixo.width/2 + retMovendo.width/2) {
